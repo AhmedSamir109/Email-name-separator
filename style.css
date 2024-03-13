@@ -1,0 +1,27 @@
+h1::before{
+    content: 'z';
+    width: 100px;
+    height: 5px;
+    background-color: rgb(203, 30, 30);
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+h1::after{
+    content: ' samir';
+    /* width: 100px; */
+    height: 100px;
+    background-color: rgb(231, 17, 17);
+    /* position: absolute; */
+}
+
+h1{
+    /* position: relative; */
+    text-align: center;
+}
+
+.parent{
+    border: 1px solid rgb(112, 107, 107);
+    border-radius: 8px;
+    padding: 30px;
+}
